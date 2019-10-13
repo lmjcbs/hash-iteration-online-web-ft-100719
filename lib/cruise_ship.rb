@@ -10,11 +10,8 @@ require 'pry'
 def select_winner(passengers)
   # add the code snippet here!
   winner = nil
-  passengers.each do |room, name|
-    if room == "suite_a" && name[0] == "A"
-      winner = passengers[name]
-      binding.pry
-    end
+  passengers.each do |key, value|
+
   end
   winner
 end
