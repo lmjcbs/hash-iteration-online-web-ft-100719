@@ -11,7 +11,7 @@ def select_winner(passengers)
   # add the code snippet here!
   winner = nil
   passengers.each do |key, value|
-    return passengers[suite_a] if passengers[suite_a]
+    return passengers[suite_a] if passengers[suite_a][0] == "A"
   end
   winner
 end
