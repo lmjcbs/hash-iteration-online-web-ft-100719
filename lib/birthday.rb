@@ -10,7 +10,7 @@ def happy_birthday(birthday_kids)
     if value < 13
       puts "Happy Birthday #{key}! You are now #{value} years old!"
     else
-      puts"
+      puts "You are too old for this.""
     end
   end
 end
