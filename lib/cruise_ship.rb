@@ -10,7 +10,7 @@ def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |room, name|
     if room == "suita_a" && name.char_at(0) == "A"
-      return name
+      return passengers[name]
     end
   end
 end
