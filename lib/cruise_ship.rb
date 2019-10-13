@@ -11,7 +11,7 @@ def select_winner(passengers)
   winner = nil
   passengers.each do |room, name|
     if room == "suita_a" && name.first == "A"
-      return passengers[name]
+      winner = passengers[name]
     end
   end
   winner
